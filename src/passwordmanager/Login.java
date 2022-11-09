@@ -43,7 +43,7 @@ public class Login extends javax.swing.JFrame {
                 
                String dburl="jdbc:mysql://localhost:3306/passwordManager";
                   String dbusername="root";
-                  String dbpassword="Chiki@1015";
+                  String dbpassword="root";
              
            con=  DriverManager.getConnection(dburl, dbusername,dbpassword);
              String sql="select* from signup where username=? and password=?";
